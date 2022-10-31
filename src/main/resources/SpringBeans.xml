@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:p="http://www.springframework.org/schema/p"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+               http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/p ">
+
+
+    <bean id="productBean1" class="demo.spring.niit.spring.Product">
+        <property name="productId" value="101"></property>
+        <property name="productName" value="item"></property>
+        <property name="productCategory" value="2345"></property>
+    </bean>
+
+    <bean id="productBean2" class="demo.spring.niit.spring.Product">
+        <property name="productId" value="102"></property>
+        <property name="productName" value="item"></property>
+        <property name="productCategory" value="2345"></property>
+    </bean>
+
+    <bean id="productBean3" class="demo.spring.niit.spring.Product">
+        <property name="productId" value="103"></property>
+        <property name="productName" value="item"></property>
+        <property name="productCategory" value="2345"></property>
+    </bean>
+
+</beans>
